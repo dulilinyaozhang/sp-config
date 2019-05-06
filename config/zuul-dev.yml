@@ -8,7 +8,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://172.86.100.171:2001/eureka, http://eureka2:2002/eureka
+      defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
 
 zuul: #可省略,为默认
   routes:
